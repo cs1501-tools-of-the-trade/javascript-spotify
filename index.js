@@ -38,7 +38,6 @@ function submitForm() {
 			});
 
 			var trackURL = track["external_urls"]["spotify"];
-			console.log(trackURL);
 			var linkHTML = "<a target='_blank' href='" + trackURL + "'>Link</a>"
 
 			var tableBody = $("#resultsTable tbody");
