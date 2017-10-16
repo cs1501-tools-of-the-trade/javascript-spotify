@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="./index.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
+
+	<body style="padding: 20px">
+		<h1>Spotify API demo</h1>
+
+		<p>Search for a song!</p>
+		<form action="javascript:submitForm()" class="form-inline">
+			<input id="searchQuery" type="text" class="form-control mr-sm-2" />
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+
+		<table id="resultsTable" class="table">
+			<tbody></tbody>
+		</table>
+	</body>
+</html>
